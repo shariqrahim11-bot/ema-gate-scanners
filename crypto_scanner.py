@@ -11,7 +11,7 @@ MAX_SPREAD = 0.50       # 4 EMAs max 0.50% apart
 NEAR_EMAS = 0.35        # price must be near EMA gate
 MIN_BARS = 220
 
-exchange = ccxt.binance({
+exchange = ccxt.bybit({
     "enableRateLimit": True,
     "options": {"defaultType": "spot"}
 })
